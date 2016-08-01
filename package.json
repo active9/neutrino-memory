@@ -1,9 +1,11 @@
 {
   "name": "neutrino-memory",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Neutrino script Memory Module",
   "main": "index.js",
   "scripts": {
+    "build": "browserify index.js -o build/neutrino-memory.min.js -s neutrino-memory",
+    "dev": "browserify index.js -o build/neutrino-memory.js -d -s neutrino-memory",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
