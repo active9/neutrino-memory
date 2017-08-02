@@ -1,0 +1,4 @@
+routes/requiredParameters.js
+config/keys/*
+*.md
+*.json
